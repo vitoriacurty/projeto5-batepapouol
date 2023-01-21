@@ -38,6 +38,7 @@ main {
   margin-top: 80px;
   background-color: #e5e5e5;
   overflow-y: scroll;
+  word-break: break-word;
 }
 
 footer {
