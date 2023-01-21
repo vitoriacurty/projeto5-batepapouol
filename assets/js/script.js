@@ -96,4 +96,14 @@ function usuarioVerificado (){
   setInterval(mantendoConexao, 5000);
 }
 
+document.addEventListener("keypress", function (e){
+
+
+  if (e.key === "Enter") {
+
+      const btn = document.querySelector('.plane-icon')
+      btn.click();
+  }
+})
+
   
