@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets/css/reset.css">
   <link rel="stylesheet" href="./assets/css/style.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   <script defer src="./assets/js/script.js"></script>
   <script defer type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script defer nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
@@ -16,10 +17,10 @@
     <img src="./assets/img/logo 1.svg" alt="logo uol">
     <ion-icon class="people-icon" name="people"></ion-icon>
   </header>
-  <main></main>
+  <main class="chat"></main>
   <footer>
-    <p class="text">Escreva aqui...</p>
-    <ion-icon class="plane-icon" name="paper-plane-outline"></ion-icon>
+    <input data-test="input-message" type="text" class="text" placeholder="Escreva aqui...">
+    <ion-icon class="plane-icon" data-test="sand-message" onclick="enviarMensagem()" name="paper-plane-outline"></ion-icon>
   </footer>
 </body>
 </html>
