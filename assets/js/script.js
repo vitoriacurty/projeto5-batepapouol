@@ -41,6 +41,18 @@ function respostaChegou(resposta) {
   
       `;
   }
+
+      if (tipo === 'private_message' && (nome1 === nome || nome2 === nome)){
+
+
+      batePapo.innerHTML += `
+      
+      <div data-test="message" class="${tipo}">
+          (${hora}) ${nome1} para ${nome2}: ${texto}
+      </div> 
+  
+      `;
+  }
 }
   batePapo.querySelector('div:last-child').scrollIntoView()
 }

@@ -84,3 +84,7 @@ footer {
 .message{
   background-color: white;
 }
+
+.private_message {
+  background-color: #FFDEDE;
+}
