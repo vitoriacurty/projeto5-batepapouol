@@ -76,3 +76,11 @@ footer {
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
 }
+
+.status {
+  background-color: #DCDCDC;
+}
+
+.message{
+  background-color: white;
+}
