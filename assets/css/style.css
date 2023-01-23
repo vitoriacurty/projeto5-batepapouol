@@ -66,17 +66,6 @@ footer {
   border: none;
 }
 
-.entrarNaSala {
-  background-color: #DCDCDC;
-  width: 375px;
-  height: 40px;
-  margin-top: 26px;
-  display: flex;
-  align-items: center;
-  font-size: 14px;
-  font-family: 'Roboto', sans-serif;
-}
-
 .status {
   background-color: #DCDCDC;
 }
